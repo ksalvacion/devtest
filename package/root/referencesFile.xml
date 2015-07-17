@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><references>
+    <identityProvider id="0000000000000000fffffffffffffffe" name="Internal Identity Provider" refType="com.l7tech.console.policy.exporter.IdProviderReference"/>
+    <policy guid="08f13d5a-79ce-40de-b4fc-11119b315466" id="bd2c848e430433e4fa6cfb089e93f005" name="testA service definitions" peripheral="false" refType="com.l7tech.console.policy.exporter.IncludedPolicyReference"/>
+    <policy guid="d37be131-4eb1-48b5-9feb-8247a8974fad" id="bd2c848e430433e4fa6cfb089e93f01a" name="testB service definitions" peripheral="false" refType="com.l7tech.console.policy.exporter.IncludedPolicyReference"/>
+</references>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><exp:Export xmlns:exp="http://www.layer7tech.com/ws/policy/export" xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" Version="3.0">
+    <exp:References/>
+    <wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy">
+        <wsp:All wsp:Usage="Required">
+            <L7p:AuditDetailAssertion>
+                <L7p:Detail stringValue="Policy Fragment: testB service definitions"/>
+            </L7p:AuditDetailAssertion>
+            <L7p:SetVariable>
+                <L7p:Base64Expression stringValue="aHR0cDovL3d3dy5nb29nbGUuY29tLmF1"/>
+                <L7p:VariableToSet stringValue="backend-url"/>
+            </L7p:SetVariable>
+        </wsp:All>
+    </wsp:Policy>
+</exp:Export>
